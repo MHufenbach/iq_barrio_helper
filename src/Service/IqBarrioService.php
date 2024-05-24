@@ -870,7 +870,7 @@ class IqBarrioService {
       '#type' => 'select',
       '#options' => $arr_fontweights,
       '#title' => $this->t('Font weight'),
-      '#default_value' => $formValues['navi_main_font_family'] ?? 'normal',
+      '#default_value' => $formValues['navi_main_font_weight'] ?? 'normal',
     ];
 
     $form['navigation']['navi_main']['navi_main_font_style'] = [
@@ -1178,7 +1178,7 @@ class IqBarrioService {
       '#type' => 'select',
       '#options' => $arr_fontweights,
       '#title' => $this->t('Font weight'),
-      '#default_value' => $formValues['navi_sub_font_family'] ?? 'normal',
+      '#default_value' => $formValues['navi_sub_font_weight'] ?? 'normal',
     ];
 
     $form['navigation']['navi_main']['navi_sub_font_style'] = [
@@ -1798,7 +1798,7 @@ class IqBarrioService {
       '#type' => 'select',
       '#options' => $arr_fontweights,
       '#title' => $this->t('Font weight'),
-      '#default_value' => $formValues['button_font_family'] ?? 'normal',
+      '#default_value' => $formValues['button_font_weight'] ?? 'normal',
     ];
 
     $form['buttons']['default']['button_font_style'] = [
@@ -2285,7 +2285,7 @@ class IqBarrioService {
       '#type' => 'select',
       '#options' => $arr_fontweights,
       '#title' => $this->t('Font weight'),
-      '#default_value' => $formValues['button_alternate_font_family'] ?? 'normal',
+      '#default_value' => $formValues['button_alternate_font_weight'] ?? 'normal',
     ];
 
     $form['buttons']['alternate']['button_alternate_font_style'] = [
@@ -3236,7 +3236,7 @@ class IqBarrioService {
       '#type' => 'select',
       '#options' => $arr_fontweights,
       '#title' => $this->t('Font weight'),
-      '#default_value' => $formValues['anchornavigation_font_family'] ?? 'normal',
+      '#default_value' => $formValues['anchornavigation_font_weight'] ?? 'normal',
     ];
 
     $form['patterns']['anchornavigation']['anchornavigation_font_style'] = [
